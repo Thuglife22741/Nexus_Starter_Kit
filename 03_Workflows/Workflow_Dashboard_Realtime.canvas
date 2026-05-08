@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"3c66382d9da60023","x":-360,"y":-1020,"width":400,"height":400,"color":"#066018","type":"file","file":"01_Global_Skills/🛡️Conexao_Supabase.md"},
+		{"id":"fd03fe9e4ba02a73","x":-960,"y":-1000,"width":400,"height":400,"color":"#07690d","type":"file","file":"01_Global_Skills/🛡️Conexao_Supabase.md"},
+		{"id":"18e9a3d4c59d70df","x":-960,"y":-1870,"width":400,"height":400,"color":"2","type":"file","file":"02_Projetos/Camila_Imobiliaria.md"},
+		{"id":"41d6f59909b3948a","x":560,"y":-1780,"width":250,"height":60,"color":"5","type":"text","text":"Pipeline Kanban"},
+		{"id":"4ecd339b601f8262","x":560,"y":-1520,"width":250,"height":60,"color":"5","type":"text","text":"Gráficos de Performance"},
+		{"id":"60c8074e5c2a367d","x":-360,"y":-1860,"width":400,"height":400,"color":"#034168","type":"file","file":"02_Projetos/DashboardMobi.md"}
+	],
+	"edges":[
+		{"id":"2a31dde81cc1a1e4","fromNode":"3c66382d9da60023","fromSide":"top","toNode":"60c8074e5c2a367d","toSide":"bottom","color":"#21ad1f","label":"Ouvir tabela webhook_eventos (Realtime)"},
+		{"id":"0eb85441ce65c946","fromNode":"18e9a3d4c59d70df","fromSide":"bottom","toNode":"fd03fe9e4ba02a73","toSide":"top","color":"2","label":"Supabase (\"Injeção de Leads\")"},
+		{"id":"96747ba40f0344d5","fromNode":"60c8074e5c2a367d","fromSide":"right","toNode":"41d6f59909b3948a","toSide":"left","color":"5","label":"Renderizar Cards de Lead"},
+		{"id":"ded1ad3776925e72","fromNode":"60c8074e5c2a367d","fromSide":"right","toNode":"4ecd339b601f8262","toSide":"left","color":"5","label":"Gerar Métricas de Funil"}
+	]
+}

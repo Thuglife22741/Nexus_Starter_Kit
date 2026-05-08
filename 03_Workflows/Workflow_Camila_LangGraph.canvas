@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"d5a666c6495cb60c","type":"file","file":"02_Projetos/Camila_Imobiliaria.md","x":-236,"y":-327,"width":400,"height":400,"color":"2"},
+		{"id":"72f0fb271637fec4","type":"text","text":"Webhook (Mensagem/Áudio)","x":-740,"y":-157,"width":250,"height":60,"color":"#231f1f"},
+		{"id":"e7e64fec5618b633","x":920,"y":-253,"width":400,"height":400,"color":"#062f8e","type":"file","file":"02_Projetos/DashboardMobi.md"},
+		{"id":"cd885ce6642c6841","x":920,"y":368,"width":400,"height":400,"color":"#097807","type":"file","file":"01_Global_Skills/🛡️Conexao_Supabase.md"},
+		{"id":"a8804cda186efbac","type":"text","text":"🎙️ Groq Whisper (AI Voice Engine)\nTranscrição ultrarrápida (STT). Converte `.ogg/.mp4` para `string` para processamento do LLM.","x":-185,"y":424,"width":300,"height":144,"color":"#6614b8"},
+		{"id":"7675b508d2e0c5a5","type":"text","text":"🚀 Evolution API (Gateway)\nOrquestrador de mensagens. Envia Cards Ricos (JSON) e Texto Humanizado via Webhook.","x":480,"y":-360,"width":260,"height":147,"color":"5"},
+		{"id":"ecd9b89784d56482","x":-36,"y":-600,"width":505,"height":100,"type":"text","text":"**🚨 CRITICAL RULE: DO NOT USE GEMINI.** **MODEL:** GPT-4O-MINI ONLY. **REASON:** LangGraph State Consistency & Cost."}
+	],
+	"edges":[
+		{"id":"090e8d301019efa1","fromNode":"72f0fb271637fec4","fromSide":"right","toNode":"d5a666c6495cb60c","toSide":"left"},
+		{"id":"2cc96bca6decf0b9","fromNode":"d5a666c6495cb60c","fromSide":"right","toNode":"7675b508d2e0c5a5","toSide":"left"},
+		{"id":"e949d305fb5402da","fromNode":"d5a666c6495cb60c","fromSide":"bottom","toNode":"a8804cda186efbac","toSide":"left","color":"#350a85","label":"Enviar áudio para transcrição"},
+		{"id":"031e759d48fcd83a","fromNode":"a8804cda186efbac","fromSide":"right","toNode":"d5a666c6495cb60c","toSide":"bottom","color":"#270467","label":"Texto Transcrito"},
+		{"id":"48e30ada71a20fe9","fromNode":"d5a666c6495cb60c","fromSide":"bottom","toNode":"cd885ce6642c6841","toSide":"top","color":"#0d5f07","label":"Busca Leads / RAG (match_documents)"},
+		{"id":"9923cbcd01e9408a","fromNode":"d5a666c6495cb60c","fromSide":"right","toNode":"e7e64fec5618b633","toSide":"left","color":"#072d50","label":"Auto-move Kanban / Atualiza Lead"},
+		{"id":"25708a76e513bdb2","fromNode":"e7e64fec5618b633","fromSide":"bottom","toNode":"cd885ce6642c6841","toSide":"top"}
+	]
+}

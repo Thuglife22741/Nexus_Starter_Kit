@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"frontend","type":"text","text":"# 🖥️ Frontend (Next.js 14 App Router)\n- Dashboard Principal\n- Detalhe de Campanha (Métricas + Funil)\n- Simulador de Escala\n- Integração com Tailwind (Dark UI Premium)","x":-300,"y":0,"width":380,"height":220},
+		{"id":"user","type":"text","text":"# Gestor de Tráfego\n(Admin/Viewer)","x":-800,"y":50,"width":200,"height":140},
+		{"id":"supabase","type":"text","text":"# 🗄️ Supabase (PostgreSQL)\n- Tabelas com RLS ativo\n- campaigns / metrics\n- ai_diagnostics\n- scale_simulations\n- meta_ad_accounts","x":850,"y":0,"width":300,"height":240},
+		{"id":"backend","type":"text","text":"# ⚙️ Backend (Next.js API Routes)\n- /api/meta/sync\n- /api/ai/diagnostic\n- /api/simulations\n- Lógica do motor 80x10x10","x":380,"y":10,"width":320,"height":220},
+		{"id":"anthropic","type":"text","text":"# 🧠 Anthropic API (Claude)\n- claude-3.5-sonnet\n- Análise Post-Hoc do funil\n- Geração de recomendações (AI Analyst)","x":700,"y":360,"width":300,"height":180},
+		{"id":"meta_api","type":"text","text":"# 🟦 Meta Marketing API\n- OAuth Login\n- Fetch de Insights Diários\n- Sync de Campanhas","x":380,"y":-400,"width":320,"height":180}
+	],
+	"edges":[
+		{"id":"e_user_front","fromNode":"user","fromSide":"right","toNode":"frontend","toSide":"left","label":"Acessa Interface"},
+		{"id":"e_front_back","fromNode":"frontend","fromSide":"right","toNode":"backend","toSide":"left","label":"Requisições API"},
+		{"id":"e_back_db","fromNode":"backend","fromSide":"right","toNode":"supabase","toSide":"left","label":"Query / Sync"},
+		{"id":"e_meta_back","fromNode":"meta_api","fromSide":"bottom","toNode":"backend","toSide":"top","label":"Webhook / Data"},
+		{"id":"e_anthropic_back","fromNode":"anthropic","fromSide":"left","toNode":"backend","toSide":"bottom","label":"JSON Diagnóstico"}
+	]
+}

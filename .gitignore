@@ -1,0 +1,17 @@
+# Obsidian workspace files (user-specific, not shareable)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/*/data.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Graphify output (generated, can be rebuilt)
+graphify-out/
+
+# Temp files
+*.tmp
+*.bak
+~$*
