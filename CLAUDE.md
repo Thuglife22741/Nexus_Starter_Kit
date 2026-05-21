@@ -105,7 +105,7 @@ O assistente possui comandos globais do framework GSD instalados.
 - **Detecção de Novo Projeto:** Se a pasta atual estiver vazia ou sem estrutura, execute `/gsd-new-project` imediatamente.
 - **Fases de Planejamento:** Utilize `/gsd-plan-phase` para decompor tarefas complexas antes de codar.
 - **Proibição de Push:** Nunca inclua arquivos de gerenciamento do GSD (codebase) em commits para o GitHub. Mantenha o foco apenas no código-fonte da aplicação.
-- **Referência:** Consulte [[🥷GSD_Core_Protocol.md]]  em Global Skills para detalhes de execução.
+- **Referência:** Consulte [[🥷GSD_Core_Protocol]]  em Global Skills para detalhes de execução.
 
 ### 🚀 Protocolo de Auto-Evolução (Nexus V5)
 Este assistente deve atuar como um organismo em constante aprendizado, utilizando a **Skill_Anthropic_Global_Suite_V5**.
@@ -129,29 +129,30 @@ Este assistente deve atuar como um organismo em constante aprendizado, utilizand
 O vault possui um grafo de conhecimento semantico gerado pelo Graphify com extracao via Gemini AI. Este grafo transforma o cofre de uma colecao de arquivos em uma rede de intencoes e relacoes de negocio.
 
 ### Arquivos do Grafo
-- **graph.json** (graphify-out/graph.json) - Grafo semantico com 46 nos, 43 arestas, 14 comunidades
-- **graph.html** (graphify-out/graph.html) - Visualizacao interativa D3
-- **GRAPH_REPORT.md** (graphify-out/GRAPH_REPORT.md) - Relatorio de clusters e conexoes
-- **.graphify_analysis.json** (graphify-out/.graphify_analysis.json) - Analise de comunidades, god nodes e conexoes surpreendentes
+- **graph.json** (graphify-out/graph.json) - Grafo semântico com 1004 nós, 917 arestas, 118 comunidades
+- **graph.html** (graphify-out/graph.html) - Visualização interativa D3
+- **GRAPH_REPORT.md** (graphify-out/GRAPH_REPORT.md) - Relatório de clusters e conexões
+- **.graphify_analysis.json** (graphify-out/.graphify_analysis.json) - Análise de comunidades, god nodes e conexões surpreendentes
 
-### Comunidades Semanticas (Mapa de Intencoes)
-O Gemini identificou os seguintes clusters de intencao no negocio:
+### Comunidades Semânticas (Mapa de Intenções)
+O Gemini identificou os seguintes clusters de intenção no negócio:
 
-| Cluster | Intencao de Negocio | Nos Principais |
+| Cluster | Intenção de Negócio | Nós Principais |
 |---------|---------------------|----------------|
-| C0 - Skills Core | Motor de execucao e habilidades tecnicas | Mapa Mestre, Design Elite, LangGraph, n8n, Shopify, Supabase |
-| C1 - Obsidian Engine | Infraestrutura de conhecimento | Markdown, Callouts, Embeds, Bases, CLI |
-| C2 - AI Governance | Governanca e padroes do agente | CLAUDE.md, Elite Claw, Karpathy, Anthropic Suite |
-| C3 - E-commerce Premium | Clientes e-commerce de alto nivel | Mr. Cavalheiros, Estetica Automotiva, Liquid, SEO, HighEnd UI |
-| C4 - SaaS/Imobiliario | Projetos SaaS e automacao | Camila, DashboardMobi, MetaScale, Supabase, GStack |
-| C5 - Voz/Seguranca | Assistentes de voz e seguranca | Jarvis, GoogleSheets, Security V5 |
+| C0 - Engine & UI Design | Motor operacional e design elite de interfaces | CLAUDE.md, Elite Claw Skills, Conexão Supabase, Camila Imobiliária, DashboardMobi, Frontend Design |
+| C1 - Growth Marketing | Estratégia de tráfego, criativos e copy | Estratégias Meta Ads, Copy & Ganchos, Prompts de Ouro, Manual Gargalo de Anúncios |
+| C2 - IA & Agentes Cíclicos | Governança de agentes, automações e Karpathy | Mapa Mestre, LangGraph Vendedora DNA, Agente Clínicas, Karpathy Coding, n8n Automation |
+| C3 - Obsidian Core | Documentação e infraestrutura de formatação | Obsidian Markdown Skill, Callouts, Embeds, Properties Reference |
+| C4 - SaaS & Tráfego Integrado | Integração de dados de tráfego e escalabilidade | MetaScale, Skill MetaAds Intelligence V5, Skill Supabase Sync |
+| C5 - E-commerce de Luxo | Lojas Shopify e arquitetura de código web | Mr. Cavalheiros, Skill HighEnd UI V5, Skill SEO OnPage V5 |
 
-### God Nodes (Nos de Alta Conectividade)
-Estes sao os nos mais influentes do vault - use-os como ponto de partida para qualquer consulta:
-1. **Mapa Mestre** (19 conexoes) - Hub central de navegacao
-2. **Nexus.AI CLAUDE.md** (7 conexoes) - Governanca do agente
-3. **Obsidian Markdown Skill** (5 conexoes) - Infraestrutura de formatacao
-4. **Conexao Supabase** (4 conexoes) - Protocolo universal de dados
+### God Nodes (Nós de Alta Conectividade)
+Estes são os nós mais influentes do vault:
+1. **Nexus.AI - Alavanca AI Operating System** (5 conexões) - Governança central do agente
+2. **Estratégias Meta Ads Framework** (4 conexões) - Hub de conhecimento de tráfego
+3. **Obsidian Markdown Skill** (3 conexões) - Infraestrutura de formatação
+4. **Skill_LangGraph_Vendedora_DNA** (3 conexões) - Blueprint de arquitetura cíclica
+5. **Mapa Mestre** (3 conexões) - Hub central de navegação
 
 ### Regras de Uso RAG
 1. **Consulta Semantica:** Antes de responder perguntas sobre o negocio, consulte o graph.json via `graphify query` para encontrar nos e arestas relevantes.

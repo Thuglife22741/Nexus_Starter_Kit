@@ -7,7 +7,7 @@ Dashboard para monitoramento e análise de métricas do Facebook Ads, integrado 
 - Frontend: React + TypeScript (Next.js 14)
 - Backend/DB: Supabase
 - Integração: API do Facebook Graph / API do Meta Ads (via Token real)
-- Motor de Inteligência: IA Generativa baseada em Doutrina Meta Ads Sênior
+- Motor de Inteligência: IA Generativa baseada em Doutrina Meta Ads Sênior [[🎯Skill_MetaAds_Intelligence_V5]]
 
 **Arquitetura:**
 - Veja o Canvas: [[Workflow_Ads_FB.canvas]]
