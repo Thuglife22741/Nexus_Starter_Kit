@@ -143,7 +143,7 @@ O Gemini identificou os seguintes clusters de intenção no negócio:
 | C1 - Growth Marketing | Estratégia de tráfego, criativos e copy | Estratégias Meta Ads, Copy & Ganchos, Prompts de Ouro, Manual Gargalo de Anúncios |
 | C2 - IA & Agentes Cíclicos | Governança de agentes, automações e Karpathy | Mapa Mestre, LangGraph Vendedora DNA, Agente Clínicas, Karpathy Coding, n8n Automation |
 | C3 - Obsidian Core | Documentação e infraestrutura de formatação | Obsidian Markdown Skill, Callouts, Embeds, Properties Reference |
-| C4 - SaaS & Tráfego Integrado | Integração de dados de tráfego e escalabilidade | MetaScale, Skill MetaAds Intelligence V5, Skill Supabase Sync |
+| C4 - SaaS & Tráfego Integrado | Integração de dados de tráfego e escalabilidade | Dashboard_Facebook_Ads, Skill MetaAds Intelligence V5, Skill Supabase Sync |
 | C5 - E-commerce de Luxo | Lojas Shopify e arquitetura de código web | Mr. Cavalheiros, Skill HighEnd UI V5, Skill SEO OnPage V5 |
 
 ### God Nodes (Nós de Alta Conectividade)

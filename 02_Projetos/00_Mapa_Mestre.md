@@ -19,8 +19,8 @@
 [[Nexus_Protocol_Layout_Canvas]] - Regras de alimento e topologia de Canvas
 [[🔄 Skill_Supabase_Sync]] - Protocolo de ingestão e Upsert de dados Meta Ads -> Supabase.
 [[🧼 Skill_Clean_Code_V5]] - Protocolo de responsabilidade única e pipelines puros.
- [[🛍️ Skill_Performance_V5]] — Regras de cache de I/O, lookups O(1) e concorrência controlada.
-  [[🔒 Skill_Security_V5]] — Protocolo de blindagem de dependências, pins de versão e cross-platform safety.
+[[🛍️ Skill_Performance_V5]] — Regras de cache de I/O, lookups O(1) e concorrência controlada.
+[[🔒 Skill_Security_V5]] — Protocolo de blindagem de dependências, pins de versão e cross-platform safety.
 [[🛍️ Skill_Shopify_GraphQL_V5]]  — Queries, mutações, paginação por cursor e operações em massa.
 [[🛍️ Skill_Liquid_Mastery_V5]]  — Objetos globais, filtros, seções dinâmicas e blocos para temas modernos.
 [[🛍️ Skill_Shopify_Functions_V5]]  — Descontos, entrega, pagamentos e transformação de carrinho.
@@ -47,7 +47,8 @@
 [[Dashboard_Facebook_Ads]] — Monitoramento de ROI e performance de tráfego pago (Integrado com [[🎯Skill_MetaAds_Intelligence_V5]]). (Ver canvas: [[Workflow_Ads_FB.canvas]])
 
 ## Projetos Ativos & E-commerce | 🚀
+
 - [[Mr_Cavalheiros]] — Loja de moda masculina de luxo. Stack: Liquid + GraphQL + SEO OnPage V5 + High-End UI V5.
 - [[Estetica_Automotiva]] — Plataforma de agendamento e vitrine de estética automotiva premium. (Ver canvas: [[Estetica_Automotiva.canvas]])
-- [[MetaScale]] — Plataforma SaaS central para escalabilidade de microsserviços.
+- [[Dashboard_Facebook_Ads]] — Plataforma SaaS central para escalabilidade de microsserviços.
 - [[armorglass_lp]] — ArmorGlass Blueprint (Capa iPhone Alumínio). Modelo padrão para LPs de alta conversão. Stack: Vanilla UI, Inline SVGs.
