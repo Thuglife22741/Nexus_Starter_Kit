@@ -1,7 +1,5 @@
 # Obsidian workspace files (user-specific, not shareable)
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-.obsidian/plugins/*/data.json
+.obsidian/
 
 # OS files
 .DS_Store
