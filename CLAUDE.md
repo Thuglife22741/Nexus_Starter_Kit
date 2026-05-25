@@ -6,6 +6,8 @@ Este repositório contém o cérebro operacional da **Alavanca AI**. Toda codifi
 
 "Sempre que houver dúvida sobre padrões de codificação ou histórico de decisões, utilize a ferramenta `search_notes` ou `get_note` do Obsidian MCP para consultar o diretório `00_Engine_Claude`."
 
+**"Antes de qualquer tarefa, leia obrigatoriamente `00_Engine_Claude/hot.md` e `00_Engine_Claude/index_vault.md` para carregar o estado atual e a árvore de conhecimento do Nexus.AI."**
+
 ### 📗 Diretrizes de Elite
 
 - **Global Execution Engine:** Siga rigorosamente os padrões de comando, paridade de terminal e tratamento de erros definidos em [[Elite_Claw_Skills.md]] (Motor Python/Claw-Code 21KB).
@@ -113,7 +115,8 @@ Este assistente deve atuar como um organismo em constante aprendizado, utilizand
 1. **Geração de Nova Skill:** Ao concluir uma funcionalidade complexa ou corrigir um erro crítico, use o comando `/skill-creator` para documentar a lição na pasta `01_Global_Skills`.
 2. **Refino de Regras:** Se uma instrução no `CLAUDE.md` se mostrar ineficiente, a IA deve sugerir e aplicar o refino usando os padrões da [[🧠 Skill_Karpathy_Coding_V5]] .
 3. **Injeção de Padrões:** Em todo novo projeto, a primeira ação deve ser criar um `CLAUDE.md` local que herde este cabeçalho e aplique o **Esqueleto Ideal do Karpathy Protocol**.
-4. **Verificação de Saúde:** Utilize `/webapp-testing` ou ferramentas similares da suite global para validar se a evolução não quebrou funcionalidades legadas.
+4. **Comando Autônomo de Documentação (/save):** Sempre que terminarmos um grande bloco de código ou projeto, a IA está autorizada a simular o comando `/save` para documentar a sessão automaticamente no Obsidian. Estruture a nota atualizando/criando o Frontmatter com a data, inserindo um resumo executivo e gerando as conexões semânticas com as skills globais.
+5. **Verificação de Saúde:** Utilize `/webapp-testing` ou ferramentas similares da suite global para validar se a evolução não quebrou funcionalidades legadas.
 
 ### 📝 Registro de Lições Aprendidas (GSD Workflow)
 - **Nomeação Padrão:** `Skill_Fix_[Nome_do_Erro]` ou `Skill_Logic_[Funcionalidade]`.
