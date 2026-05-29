@@ -16,11 +16,6 @@ O vault possui um grafo de conhecimento gerado pelo Graphify. Este grafo transfo
 - `scripts/` : Scripts operacionais de rerank, retrieve, bm25-index, tiling-check.
 - `bin/` : Setup scripts (dragonscale, vault, multi-agent, retrieve).
 
-## 🧠 Microsoft GenAI Curriculum (Ingestao 2026-05-28)
-- [[Skill_Microsoft_GenAI_Curriculum]] : Indice Mestre das 21 licoes — 3 veias de ouro identificadas.
-- [[MSFT_RAG_e_Vetores_Memoria_IA]] : Pipeline RAG completo, embeddings, vector DBs, busca semantica (Aulas 8 e 15).
-- [[MSFT_Agentes_e_LLMOps_JARVIS]] : AutoGen, LangChain, TaskWeaver, JARVIS, ciclo de vida LLMOps (Aulas 14 e 17).
-- [[MSFT_Prompt_Engineering_e_UX_IA]] : Zero-shot, CoT, Self-refine, Trust, Transparency, Chat UX (Aulas 4, 5 e 12).
 
 ## 🌐 Global Skills
 - [[⚡Elite_Claw_Skills]] : Motor Python/Claw — padroes de comando, registry, execucao estruturada.

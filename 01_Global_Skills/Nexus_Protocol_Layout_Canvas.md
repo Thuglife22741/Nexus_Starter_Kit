@@ -6,12 +6,12 @@ Padronizar a correção de fluxos visuais no Obsidian Canvas, garantindo que a a
 ## 🛠️ Pré-requisitos
 - Acesso ao arquivo `.canvas` via MCP Obsidian.
 - Skill `json-canvas` carregada para referência de tipos e coordenadas.
-- Documentação do projeto (ex: `Jarvis_Voz.md`) para validar a topologia.
+- Documentação do projeto ativo para validar a topologia.
 
 ## 📝 Workflow (Passo a Passo)
-1. **Identificação de Componentes:** Comparar os nós do Canvas com a Stack mencionada na documentação. (Ex: ElevenLabs estava ausente no fluxo visual).
-2. **Correção de Topologia:** Adicionar nós faltantes e configurar conexões bidirecionais entre o Motor de Voz (ElevenLabs) e a Camada de Ação (Rube MCP) usando as propriedades `fromEnd: arrow` e `toEnd: arrow`.
-3. **Alinhamento de Coordenadas:** Reposicionar os nós em um eixo horizontal limpo (ex: Frontend -> ElevenLabs -> Rube MCP) para evitar o "layout bagunçado" (scattering).
+1. **Identificação de Componentes:** Comparar os nós do Canvas com a Stack mencionada na documentação. (Ex: Motor de IA, Bancos de Dados, Ferramentas MCP).
+2. **Correção de Topologia:** Adicionar nós faltantes e configurar conexões entre os módulos. Para fluxos de feedback/ação de IA, use conexões bidirecionais (`fromEnd: arrow` e `toEnd: arrow`).
+3. **Alinhamento de Coordenadas:** Reposicionar os nós em um eixo limpo (ex: Frontend -> Middleware -> Backend) para evitar o "layout bagunçado" (scattering).
 4. **Referência Documental:** Posicionar a nota de documentação do projeto (`.md`) acima do fluxo central para servir de contexto.
 5. **Validação:** Garantir que o JSON resultante é válido e segue a especificação JSON Canvas 1.0.
 
