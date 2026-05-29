@@ -222,11 +222,11 @@ User → LLM Central → [VoiceModel, ImageModel, SearchModel]
 ```
 **Quando usar:** quando cada subtarefa precisa de um modelo especializado
 
-### Aplicacao Direta no Nexus.AI
+### Aplicacao Direta no Nexus Core OS
 
-- [[🤖 Skill_LangGraph_Vendedora_DNA]] ja implementa o Pattern 1 (LangGraph = AgentExecutor avancado)
-- [[Jarvis_Voz]] deve evoluir para Pattern 3 (JARVIS — orquestrador de modelos)
-- **Proximo passo:** adicionar AutoGen para criacao de reunioes multi-agente
+- [[🧠 Skill_Anthropic_Global_Suite_V5]] ja implementa o Pattern 1 (AgentExecutor avancado)
+- [[🥷GSD_Core_Protocol]] opera no Pattern 3 (Orquestrador de modelos e sub-agentes)
+- **Proximo passo:** adicionar rotinas do Graphify para memória de longo prazo multi-agente
 
 ---
 
