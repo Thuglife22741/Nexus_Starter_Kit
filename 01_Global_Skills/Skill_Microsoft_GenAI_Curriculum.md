@@ -10,7 +10,7 @@ status: indexado
 > **21 licoes oficiais da Microsoft** para construir aplicacoes de IA Generativa.
 > Repositorio: [generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners)
 > Stack: Python, Azure OpenAI, LangChain, AutoGen, Semantic Kernel
-> Conectado a: [[00_Mapa_Mestre]] | [[🤖 Skill_LangGraph_Vendedora_DNA]] | [[🧠 Skill_Anthropic_Global_Suite_V5]]
+> Conectado a: [[00_Mapa_Mestre]] | [[🧠 Skill_Anthropic_Global_Suite_V5]]
 
 ---
 
@@ -62,12 +62,12 @@ Este curriculo foi minerado com foco nos **3 blocos estrategicos** de maior impa
 
 ## 🔗 Links Semanticos com Skills Atuais do Nexus.AI
 
-| Conceito Microsoft | Skill Nexus.AI Conectada | Aplicacao Pratica |
+| Conceito Microsoft | Skill Nexus Core OS Conectada | Aplicacao Pratica |
 |--------------------|--------------------------|-------------------|
-| RAG + Vector DB | [[🤖 Skill_LangGraph_Vendedora_DNA]] | Busca semantica de imoveis via PGVector |
-| RAG + Embeddings | [[🛡️Conexao_Supabase]] | RPC `match_documents` ja implementada |
-| Agentes (AutoGen) | [[🤖 Skill_LangGraph_Vendedora_DNA]] | Multi-agent conversacional tipo Camila |
-| JARVIS Framework | [[Jarvis_Voz]] | Orquestracao de modelos especializados |
+| RAG + Vector DB | [[00_Engine_Claude/index_vault]] | Busca semantica em arquivos locais via MCP |
+| RAG + Embeddings | [[00_Mapa_Mestre]] | Conexão semântica e grafo neural via Graphify |
+| Agentes (AutoGen) | [[🧠 Skill_Anthropic_Global_Suite_V5]] | Automação multi-step e roteamento |
+| JARVIS Framework | [[🥷GSD_Core_Protocol]] | Orquestracao de execução e planejamento |
 | LLMOps Lifecycle | [[🔒 Skill_Security_V5]] | Monitoramento, avaliacao, seguranca |
 | Prompt Engineering | [[🧠 Skill_Karpathy_Coding_V5]] | Padroes de prompts de engenharia senior |
 | UX para IA (Aula 12) | [[🎨 Skill_Frontend_Design_Elite]] | Trust, transparency, feedback loops em UI |
