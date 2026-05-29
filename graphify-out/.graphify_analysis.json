@@ -1,0 +1,268 @@
+{
+  "communities": {
+    "0": [
+      "camila_imobiliaria",
+      "claude_nexus_ai",
+      "conexao_supabase",
+      "dashboardmobi",
+      "elite_claw_skills",
+      "elite_claw_v3_turbo",
+      "skill_frontend_design_elite"
+    ],
+    "1": [
+      "andromeda_engine",
+      "copy_ganchos",
+      "estrategias_meta",
+      "manual_gargalo_anuncios",
+      "prompt_direcionamento_criativo",
+      "prompts_ouro"
+    ],
+    "2": [
+      "agente_agendamento_clinica",
+      "mapa_mestre",
+      "skill_karpathy_coding_v5",
+      "skill_langgraph_vendedora_dna",
+      "skill_n8n_automation_v5"
+    ],
+    "3": [
+      "callouts_reference",
+      "embeds_reference",
+      "obsidian_markdown_skill",
+      "properties_reference"
+    ],
+    "4": [
+      "metascale",
+      "skill_metaads_intelligence_v5",
+      "skill_supabase_sync"
+    ],
+    "5": [
+      "mr_cavalheiros",
+      "skill_highend_ui_v5",
+      "skill_seo_onpage_v5"
+    ],
+    "6": [
+      "functions_reference",
+      "obsidian_bases_skill"
+    ],
+    "7": [
+      "jarvis_voz",
+      "skill_googlesheets_contacts"
+    ],
+    "8": [
+      "estetica_automotiva",
+      "skill_3d_porsche_animation"
+    ],
+    "9": [
+      "examples_json_canvas"
+    ],
+    "10": [
+      "obsidian_cli_skill"
+    ],
+    "11": [
+      "monitoramento_custos_claude"
+    ],
+    "12": [
+      "nexus_protocol_layout_canvas"
+    ],
+    "13": [
+      "skill_logic_google_seo_integration"
+    ],
+    "14": [
+      "skill_synabun_knowledge_v1"
+    ],
+    "15": [
+      "git_multicontas"
+    ],
+    "16": [
+      "skill_security_v5"
+    ],
+    "17": [
+      "skill_luxury_copywriting_v5"
+    ],
+    "18": [
+      "skill_liquid_mastery_v5"
+    ],
+    "19": [
+      "skill_performance_v5"
+    ],
+    "20": [
+      "skill_shopify_functions_v5"
+    ],
+    "21": [
+      "skill_shopify_graphql_v5"
+    ],
+    "22": [
+      "gsd_core_protocol"
+    ],
+    "23": [
+      "skill_anthropic_global_suite_v5"
+    ],
+    "24": [
+      "skill_claude_design_elite_v5"
+    ],
+    "25": [
+      "skill_gstack_executive_suite"
+    ],
+    "26": [
+      "skill_clean_code_v5"
+    ],
+    "27": [
+      "armorglass_lp"
+    ],
+    "28": [
+      "dashboard_facebook_ads"
+    ],
+    "29": [
+      "defuddle_skill"
+    ],
+    "30": [
+      "json_canvas_skill"
+    ]
+  },
+  "cohesion": {
+    "0": 0.29,
+    "1": 0.33,
+    "2": 0.4,
+    "3": 0.5,
+    "4": 0.67,
+    "5": 0.67,
+    "6": 1.0,
+    "7": 1.0,
+    "8": 1.0,
+    "9": 1.0,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0,
+    "25": 1.0,
+    "26": 1.0,
+    "27": 1.0,
+    "28": 1.0,
+    "29": 1.0,
+    "30": 1.0
+  },
+  "gods": [
+    {
+      "id": "claude_nexus_ai",
+      "label": "Nexus.AI - Alavanca AI Operating System",
+      "degree": 5
+    },
+    {
+      "id": "estrategias_meta",
+      "label": "Estrat\u00e9gias Meta Ads Framework",
+      "degree": 4
+    },
+    {
+      "id": "obsidian_markdown_skill",
+      "label": "Obsidian Markdown Skill",
+      "degree": 3
+    },
+    {
+      "id": "skill_langgraph_vendedora_dna",
+      "label": "Skill_LangGraph_Vendedora_DNA",
+      "degree": 3
+    },
+    {
+      "id": "mapa_mestre",
+      "label": "Mapa Mestre",
+      "degree": 3
+    },
+    {
+      "id": "copy_ganchos",
+      "label": "Copy & Ganchos Frameworks",
+      "degree": 2
+    },
+    {
+      "id": "skill_metaads_intelligence_v5",
+      "label": "Skill: Gestor de Tr\u00e1fego Pago & Intelig\u00eancia Meta Ads",
+      "degree": 2
+    },
+    {
+      "id": "conexao_supabase",
+      "label": "Conex\u00e3o Supabase",
+      "degree": 2
+    },
+    {
+      "id": "camila_imobiliaria",
+      "label": "Camila \u2014 Assistente Imobili\u00e1ria",
+      "degree": 2
+    },
+    {
+      "id": "mr_cavalheiros",
+      "label": "Mr. Cavalheiros \u2014 Loja Shopify Premium",
+      "degree": 2
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Nexus.AI - Alavanca AI Operating System",
+      "target": "Elite Claw Skills",
+      "source_files": [
+        "CLAUDE.md",
+        "00_Engine_Claude/Elite_Claw_Skills.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; peripheral node `Elite Claw Skills` unexpectedly reaches hub `Nexus.AI - Alavanca AI Operating System`"
+    },
+    {
+      "source": "Nexus.AI - Alavanca AI Operating System",
+      "target": "Engine Claude Elite (V3 - Post-hoc Analyzer)",
+      "source_files": [
+        "CLAUDE.md",
+        "00_Engine_Claude/Elite_Claw_V3_Turbo.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; peripheral node `Engine Claude Elite (V3 - Post-hoc Analyzer)` unexpectedly reaches hub `Nexus.AI - Alavanca AI Operating System`"
+    },
+    {
+      "source": "Nexus.AI - Alavanca AI Operating System",
+      "target": "Mapa Mestre",
+      "source_files": [
+        "CLAUDE.md",
+        "02_Projetos/00_Mapa_Mestre.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "Nexus.AI - Alavanca AI Operating System",
+      "target": "Conex\u00e3o Supabase",
+      "source_files": [
+        "CLAUDE.md",
+        "01_Global_Skills/\ud83d\udee1\ufe0fConexao_Supabase.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; peripheral node `Conex\u00e3o Supabase` unexpectedly reaches hub `Nexus.AI - Alavanca AI Operating System`"
+    },
+    {
+      "source": "Nexus.AI - Alavanca AI Operating System",
+      "target": "Skill: Frontend Design & UI/UX Elite",
+      "source_files": [
+        "CLAUDE.md",
+        "01_Global_Skills/\ud83c\udfa8 Skill_Frontend_Design_Elite.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; peripheral node `Skill: Frontend Design & UI/UX Elite` unexpectedly reaches hub `Nexus.AI - Alavanca AI Operating System`"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}
