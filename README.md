@@ -51,7 +51,7 @@ Este cofre não é estático; ele **aprende sozinho**. O Nexus foi projetado sob
 
 O Nexus Core OS brilha de verdade quando conectado às suas ferramentas de trabalho automatizadas (Claude Desktop, Cursor, Windsurf). Para que as IAs possam ler e editar seu cofre em tempo real, usamos o protocolo MCP.
 
-O plugin **Local REST API** já vem pré-instalado neste cofre para facilitar essa conexão. Siga os passos abaixo:
+O plugin **Local REST API** já vem pré-instalado neste cofre para facilitar essa conexão. Em caso de dúvidas sobre o funcionamento do plugin, consulte a [Documentação Oficial do Local REST API](https://coddingtonbear.github.io/obsidian-local-rest-api/). Siga os passos básicos abaixo:
 
 1. **Pegue sua Chave:** No Obsidian, vá em `Configurações` > `Local REST API` (no menu lateral esquerdo). Copie a sua **API Key**.
 2. **Ative o HTTP:** Role a página de configurações do plugin até o final e ative a opção **"Enable Non-encrypted (HTTP) Server"** para habilitar a porta de conexão local.
