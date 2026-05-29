@@ -45,6 +45,7 @@ O vault possui um grafo de conhecimento gerado pelo Graphify. Este grafo transfo
 - [[🧠 Skill_Karpathy_Coding_V5]] : Padrões de Engenharia (Karpathy Protocol).
 - [[🧼 Skill_Clean_Code_V5]] : Boas práticas de código limpo.
 - [[🪨 Skill Caveman Token Optimizer]] : Otimização extrema de tokens/contexto.
+- [[📉 Monitoramento_de_Custos_Claude]] : Otimização e monitoramento de custos de tokens API.
 
 ## 🧭 Navegação Central
 - [[00_Mapa_Mestre]] : Hub Central de Navegação do Cofre.

@@ -3,6 +3,7 @@
 [[🧠 Skill_Karpathy_Coding_V5]] - Protocolo de Engenharia Cirúrgica & Anti-Bloat (Padrão Karpathy).
 [[🧠 Skill_Anthropic_Global_Suite_V5]] — Suite de automação e auto-evolução.
 [[🥷GSD_Core_Protocol]] — Protocolo GSD Core para execução de tarefas autônomas e consistência operacional.
+[[📉 Monitoramento_de_Custos_Claude]] - Controle, limites e alertas de queima de tokens da API.
 
 ## Memória Evolutiva (Skills Aprendidas) | 🧠
 [[Nexus_Protocol_Layout_Canvas]] - Regras de alimento e topologia de Canvas
