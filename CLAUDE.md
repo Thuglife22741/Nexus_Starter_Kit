@@ -1,18 +1,18 @@
-# 🛡️ Nexus.AI - Alavanca AI Operating System
+# 🛡️ Nexus Core OS
 
-`Diretório Raiz de Inteligência: [C:\Users\cerqu\Documents\Obsidian  work\Nexus.AI]`
+`Diretório Raiz de Inteligência: [C:\Users\cerqu\Documents\Obsidian  work\Nexus_Starter_Kit]`
 
-Este repositório contém o cérebro operacional da **Alavanca AI**. Toda codificação e automação deve seguir as diretrizes de engenharia de elite e os motores de paridade atualizados.
+Este repositório contém o cérebro operacional do **Nexus Core OS**. Toda codificação e automação deve seguir as diretrizes de engenharia de elite e os motores de paridade atualizados.
 
 "Sempre que houver dúvida sobre padrões de codificação ou histórico de decisões, utilize a ferramenta `search_notes` ou `get_note` do Obsidian MCP para consultar o diretório `00_Engine_Claude`."
 
-**"Antes de qualquer tarefa, leia obrigatoriamente `00_Engine_Claude/hot.md` e `00_Engine_Claude/index_vault.md` para carregar o estado atual e a árvore de conhecimento do Nexus.AI."**
+**"Antes de qualquer tarefa, leia obrigatoriamente `00_Engine_Claude/hot.md` e `00_Engine_Claude/index_vault.md` para carregar o estado atual e a árvore de conhecimento do Nexus Core OS."**
 
 ### 📗 Diretrizes de Elite
 
-- **Global Execution Engine:** Siga rigorosamente os padrões de comando, paridade de terminal e tratamento de erros definidos em [[Elite_Claw_Skills.md]] (Motor Python/Claw-Code 21KB).
+- **Global Execution Engine:** Siga rigorosamente os padrões de comando, paridade de terminal e tratamento de erros definidos em [[⚡Elite_Claw_Skills]] (Motor Python/Claw-Code 21KB).
     
-- **Analytical Intelligence:** Utilize as lógicas de análise post-hoc, benchmarks e arquitetura de agentes de [[Elite_Claw_V3_Turbo.md]] (Motor TypeScript/V3 30.3MB).
+- **Analytical Intelligence:** Utilize as lógicas de análise post-hoc, benchmarks e arquitetura de agentes de [[⚡Elite_Claw_V3_Turbo]] (Motor TypeScript/V3 30.3MB).
     
 
 ---
@@ -35,9 +35,7 @@ Before iniciar a codificação, a IA deve garantir a seguinte estrutura via MCP:
 
 ### 🧠 Intelligence & Standards
 
-- **Engine Híbrido:** Combine o loop de 'Observação -> Ação -> Verificação' do [[Elite_Claw_Skills.md]] com a profundidade analítica e criação de skills do [[Elite_Claw_V3_Turbo.md]].
-    
-- **Git Flow:** Utilize a lógica de autenticação via GCM (pop-up) conforme definido em [[🔑 Git_Multicontas.md]]. NUNCA tente usar PATs ou senhas manuais.
+- **Engine Híbrido:** Combine o loop de 'Observação -> Ação -> Verificação' do [[⚡Elite_Claw_Skills]] com a profundidade analítica e criação de skills do [[⚡Elite_Claw_V3_Turbo]].
     
 - **Terminal:** Adote o comportamento de **Agente de Execução (sh)**. Use a paridade de estado do motor Python para garantir que o terminal e a IA falem a mesma língua.
     
@@ -52,18 +50,18 @@ Before iniciar a codificação, a IA deve garantir a seguinte estrutura via MCP:
     
 - **01_Global_Skills:** Motores de execução e habilidades reutilizáveis. Caminho físico: `01_Global_Skills/`
     
-    - **Core Execution:** [[Elite_Claw_Skills]] (O coração do comando). Arquivo: `01_Global_Skills/Elite_Claw_Skills.md`
-    - **Analytical Engine:** [[Elite_Claw_V3_Turbo]] (Motor V3 — Post-hoc Analyzer). Arquivo: `01_Global_Skills/Elite_Claw_V3_Turbo.md`
+    - **Core Execution:** [[⚡Elite_Claw_Skills]] (O coração do comando). Arquivo: `01_Global_Skills/Elite_Claw_Skills.md`
+    - **Analytical Engine:** [[⚡Elite_Claw_V3_Turbo]] (Motor V3 — Post-hoc Analyzer). Arquivo: `01_Global_Skills/Elite_Claw_V3_Turbo.md`
         
-    - **Data Ops:** [[🛡️Conexao_Supabase]] — Protocolo Universal (LangGraph ↔ Dashboard).
+    - **Data Ops:** Integrações de Banco de Dados e APIs globais.
         
     - **Token Optimizer:** [[🪨 Skill Caveman Token Optimizer]]  — Ative o "Modo Caveman" para reduzir custos em até 75%.
 
     - **Frontend Engine:** [[🎨 Skill_Frontend_Design_Elite]]  — Framework UI/UX Pro Max para interfaces SaaS e IA de alto nível.
         
-- **02_Projetos:** Instruções específicas (CRM, Camila, Clínicas, DashboardMobi).
+- **02_Projetos:** Instruções específicas para seus projetos.
     
-- **03_Workflows:** Notas de automação e fluxos globais (Bun, LangGraph, Supabase).
+- **03_Workflows:** Notas de automação e fluxos globais.
     
 - **04_Templates:** Modelos de notas, skills e estruturas padronizadas.
 
@@ -74,26 +72,20 @@ Before iniciar a codificação, a IA deve garantir a seguinte estrutura via MCP:
 
 ---
 
-## 📜 Regras de Ouro (Alavanca AI)
+## 📜 Regras de Ouro
 
 1. **Sincronização de Motor:** Antes de codar, valide se o agente está usando o encoding UTF-8 definido no motor de 21KB para evitar caracteres lixo.
     - É terminantemente PROIBIDO o uso de escape sequences Unicode (ex: \uXXXX) em arquivos Markdown. Todo conteúdo deve ser salvo estritamente em UTF-8 Plain Text, garantindo que emojis e acentuação sejam renderizados nativamente pelo Obsidian.
 
 2. **Otimização de Contexto (Caveman):** Utilize a [[🪨 Skill Caveman Token Optimizer]] para esmagar tokens desnecessários em tarefas longas. Priorize a lógica técnica sobre a polidez gramatical.
     
-3. **Supabase Universal Engine:** - Toda alteração de estado da **Camila (LangGraph)** deve ser refletida em `leads` e espelhada em `webhook_eventos`.
-    
-    - O **DashboardMobi** deve consumir dados via Realtime para paridade visual imediata com o WhatsApp.
-        
-    - Buscas de imóveis devem utilizar a RPC `match_documents` (PGVector).
-        
-4. **Personalidade de Agente:** Mantenha a consistência definida em [[Camila_Imobiliaria]] ou [[Jarvis_Voz]]. A IA deve agir como um Engenheiro Sênior focado em performance (Bun) e redução de custo.
+3. **Personalidade de Agente:** A IA deve agir como um Engenheiro Sênior focado em performance e redução de custo.
 
-5. **Design Elite Standard:** Utilize sempre a [[🎨 Skill_Frontend_Design_Elite]] para garantir que interfaces Next.js/Tailwind sigam padrões sênior de UI/UX, evitando amadorismos visuais.
+4. **Design Elite Standard:** Utilize sempre a [[🎨 Skill_Frontend_Design_Elite]] para garantir que interfaces Next.js/Tailwind sigam padrões sênior de UI/UX, evitando amadorismos visuais.
 
-6. **💎 Sintaxe de Link Obsidian (CRÍTICO):** Para garantir que as notas de projeto sejam navegáveis, siga estas regras de formatação: - **Links Clicáveis:** Utilize OBRIGATORIAMENTE a sintaxe de colchetes duplos `[[Nome_da_Skill]]`. - **Proibição de Numeração:** Nunca utilize listas numeradas (1., 2.) ou códigos Unicode encostados nos links. Isso corrompe a renderização do Obsidian. - **Padrão de Lista:** Utilize apenas bullet points simples com espaço: `- [[Skill_Exemplo]]`. - **Validação de Nome:** O nome dentro dos colchetes deve corresponder exatamente ao arquivo físico na pasta `01_Global_Skills`.
+5. **💎 Sintaxe de Link Obsidian (CRÍTICO):** Para garantir que as notas de projeto sejam navegáveis, siga estas regras de formatação: - **Links Clicáveis:** Utilize OBRIGATORIAMENTE a sintaxe de colchetes duplos `[[Nome_da_Skill]]`. - **Proibição de Numeração:** Nunca utilize listas numeradas (1., 2.) ou códigos Unicode encostados nos links. Isso corrompe a renderização do Obsidian. - **Padrão de Lista:** Utilize apenas bullet points simples com espaço: `- [[Skill_Exemplo]]`. - **Validação de Nome:** O nome dentro dos colchetes deve corresponder exatamente ao arquivo físico na pasta `01_Global_Skills`.
 
-7. **Diretriz de Ingestao de Conhecimento Bruto:** Documentos externos, PDFs de trafego (Meta/Google/TikTok Ads), planilhas `.xlsx`/`.csv` e midias brutas devem ser colocados na pasta `.raw/`. O comando `/wiki-ingest` deve ser invocado para processar e destilar esses arquivos em notas estruturadas dentro de `wiki/`. Antes de responder perguntas de negocio profundas, consulte sempre `wiki/hot.md` e `wiki/index.md`. Nunca processe arquivos de `.raw/` sem antes persistir o resultado em `wiki/sources/`, `wiki/concepts/` ou `wiki/entities/`.
+6. **Diretriz de Ingestao de Conhecimento Bruto:** Documentos externos, PDFs de trafego (Meta/Google/TikTok Ads), planilhas `.xlsx`/`.csv` e midias brutas devem ser colocados na pasta `.raw/`. O comando `/wiki-ingest` deve ser invocado para processar e destilar esses arquivos em notas estruturadas dentro de `wiki/`. Antes de responder perguntas de negocio profundas, consulte sempre `wiki/hot.md` e `wiki/index.md`. Nunca processe arquivos de `.raw/` sem antes persistir o resultado em `wiki/sources/`, `wiki/concepts/` ou `wiki/entities/`.
    - Comandos habilitados: `/wiki-ingest`, `/autoresearch`, `/think`, `/canvas`, `/wiki`, `/save`
    - Estrutura: `.raw/` (entrada bruta) -> `wiki/sources/` (resumos) -> `wiki/concepts/` e `wiki/entities/` (conhecimento estruturado)
    - Agentes em `agents/`: `wiki-ingest.md`, `wiki-lint.md`, `verifier.md`
@@ -127,7 +119,7 @@ Este assistente é um organismo autônomo. Você tem o dever de expandir a memó
 **O Fluxo sem Margem para Interpretação:**
 1. **Molde Estrito:** Antes de digitar qualquer linha da nova skill, você deve OBRIGATORIAMENTE ler o arquivo `04_Templates/Template_Skill.md` e clonar rigorosamente a sua estrutura de H1, metadados e seções.
 2. **Localização Exata:** Salve o arquivo gerado estritamente dentro da pasta `01_Global_Skills/`.
-3. **Mapeamento Cirúrgico no Mapa Mestre:** Abra o arquivo `02_Projetos/00_Mapa_Mestre.md` e injete o link da nota criada estritamente abaixo do cabeçalho `## Memória Evolutiva (Skills Aprendidas) | 🧠`, usando o formato padrão exato: `- [[Nome_da_Skill]] - Breve descrição da lição aprendida.`
+3. **Mapeamento Cirúrgico no Mapa Mestre:** Abra o arquivo `00_Mapa_Mestre.md` e injete o link da nota criada estritamente abaixo do cabeçalho `## Memória Evolutiva (Skills Aprendidas) | 🧠`, usando o formato padrão exato: `- [[Nome_da_Skill]] - Breve descrição da lição aprendida.`
 4. **Garantia de Persistência RAG:** Como etapa final mandatória pós-criação, você deve disparar silenciosamente no terminal o comando `python -m graphify update . --force` para garantir que o motor semântico aprenda a nova habilidade de imediato para a próxima sessão.
 ---
 

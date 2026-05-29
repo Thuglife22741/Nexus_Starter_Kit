@@ -1,21 +1,15 @@
 {
 	"nodes":[
 		{"id":"cf9e0942088f596d","type":"file","file":"01_Global_Skills/🎨 Skill_Frontend_Design_Elite.md","x":540,"y":-460,"width":400,"height":400,"color":"#097743"},
-		{"id":"65c9b5fb005d8ea6","type":"file","file":"01_Global_Skills/📊 Skill_GoogleSheets_Contacts.md","x":540,"y":80,"width":400,"height":400,"color":"#097743"},
-		{"id":"d7ab2e6d51531eb9","type":"file","file":"01_Global_Skills/🔑 Git_Multicontas.md","x":540,"y":640,"width":400,"height":400,"color":"#097743"},
-		{"id":"674144fe9ecfd7e9","type":"file","file":"01_Global_Skills/🛡️Conexao_Supabase.md","x":540,"y":1200,"width":400,"height":400,"color":"#097743"},
 		{"id":"44c6b47eed001e00","type":"file","file":"01_Global_Skills/🪨 Skill Caveman Token Optimizer.md","x":-1200,"y":1000,"width":400,"height":400,"color":"#6f0c9d"},
 		{"id":"c2eee0cdb056d4a6","type":"file","file":"CLAUDE.md","x":-1200,"y":140,"width":400,"height":500,"color":"3"},
-		{"id":"3de69cd8d30a7aee","x":-280,"y":-460,"width":400,"height":400,"type":"file","file":"01_Global_Skills/Elite_Claw_V3_Turbo.md"},
-		{"id":"bba9693851737062","x":-280,"y":640,"width":400,"height":400,"type":"file","file":"01_Global_Skills/Elite_Claw_Skills.md"}
+		{"id":"3de69cd8d30a7aee","type":"file","file":"01_Global_Skills/⚡Elite_Claw_V3_Turbo.md","x":-280,"y":-460,"width":400,"height":400},
+		{"id":"bba9693851737062","type":"file","file":"01_Global_Skills/⚡Elite_Claw_Skills.md","x":-280,"y":640,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"f123efd115156494","fromNode":"c2eee0cdb056d4a6","fromSide":"bottom","toNode":"44c6b47eed001e00","toSide":"top"},
 		{"id":"c1df57e31a7413c6","fromNode":"3de69cd8d30a7aee","fromSide":"right","toNode":"cf9e0942088f596d","toSide":"left"},
 		{"id":"401824007da22d99","fromNode":"3de69cd8d30a7aee","fromSide":"left","toNode":"c2eee0cdb056d4a6","toSide":"right"},
-		{"id":"51dae9b52e29d1a5","fromNode":"bba9693851737062","fromSide":"left","toNode":"c2eee0cdb056d4a6","toSide":"right"},
-		{"id":"24cb03917542802b","fromNode":"bba9693851737062","fromSide":"right","toNode":"65c9b5fb005d8ea6","toSide":"left"},
-		{"id":"b7e168e545aa9e78","fromNode":"bba9693851737062","fromSide":"right","toNode":"d7ab2e6d51531eb9","toSide":"left"},
-		{"id":"6aa7346f79fb068d","fromNode":"bba9693851737062","fromSide":"right","toNode":"674144fe9ecfd7e9","toSide":"left"}
+		{"id":"51dae9b52e29d1a5","fromNode":"bba9693851737062","fromSide":"left","toNode":"c2eee0cdb056d4a6","toSide":"right"}
 	]
 }
